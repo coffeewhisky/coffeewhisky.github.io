@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About Me
+cover: girona
 ---
 
 # Hello, fellow readers!
