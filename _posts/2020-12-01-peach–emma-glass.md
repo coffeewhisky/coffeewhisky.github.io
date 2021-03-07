@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Peach – Emma Glass
+categories: review
 ---
 
 > I want to say things but I don’t know how to order the words. Sentences slither around my brain. Scattered words. Scatterbrained. Scatter sentences. Scattered semantics. Scattered seeds. Scatter my brains.
