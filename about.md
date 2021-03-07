@@ -6,7 +6,7 @@ cover: girona
 
 # Hello, fellow readers!
 
-<img src="./images/me.jpg" alt="Abigail Jones">
+<img src="images/me.jpg" alt="Abigail Jones">
 
 I’m a bookish sprite indeed, with eclectic taste in literature and devouring book after book. I hope at worst to entertain you with reviews of books past and current; at best help you decide which book simply *has* to jump the queue to the top of your TBR pile.
 
