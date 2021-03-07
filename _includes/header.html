@@ -16,11 +16,11 @@
       <li><a href="{{ site.baseurl }}/reviews">Reviews</a></li>
       <li><a href="{{ site.baseurl }}/about">About</a></li>
     </ul>
-    
+  
   {% if page.cover %}
-  <img src="/images/cover/{{ page.cover }}.jpg" class="cover" alt="{{ page.title }}" />
-  {% else %}
-  <img src="/images/cover/books.jpg" class="cover" alt="{{ site.description }}" />
-  {% endif %}
-    
-  </header>
+    <div style="background: url(/images/cover/{{ page.cover }}.jpg}.jpg) 50% 50% / cover #0d0501;"></div>
+      {% else %}
+      <div style="background: url(/images/cover/books.jpg) 50% 50% / cover #0d0501;"></div>
+        {% endif %}
+
+     </header>
