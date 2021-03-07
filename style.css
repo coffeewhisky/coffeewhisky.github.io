@@ -7,13 +7,13 @@ body {
 }
 
 a, a:visited {
-	color:#2980B9;
+	color:#e76f51;
 	text-decoration:none;
 }
 
 a:hover {
 	transition:color .25s;
-	color:#3498DB;
+	color:#f4a261;
 	text-decoration:none;
 }
 
