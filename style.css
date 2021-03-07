@@ -31,7 +31,6 @@ header li {
 
 img.cover {
 	max-width: 100%;
-	padding: 30px 25px 30px 25px;
 	margin:auto;
 }
 
@@ -45,13 +44,6 @@ article {
 article p {
 
 }
-
-.about-image img {
-	max-width: 224px;
-	display: block;
-	margin: auto;
-}
-
 
 time {
 	font-size: .8em;
