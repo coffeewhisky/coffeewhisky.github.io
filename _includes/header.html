@@ -11,16 +11,16 @@
 
   <header>
     <ul>
+      <li class="sitename"><a href="{{ site.baseurl }}/">Abby M Jones</a></li>
       <li><a href="{{ site.baseurl }}/">Home</a></li>
       <li><a href="{{ site.baseurl }}/writing">Writing</a></li>
       <li><a href="{{ site.baseurl }}/reviews">Reviews</a></li>
       <li><a href="{{ site.baseurl }}/about">About</a></li>
     </ul>
-  
-  {% if page.cover %}
+  </header>
+
+    {% if page.cover %}
     <div class="cover" style="background: url(/images/cover/{{ page.cover }}.jpg) 50% 50% / cover #0d0501;"></div>
   {% else %}
     <div class="cover" style="background: url(/images/cover/books.jpg) 50% 50% / cover #0d0501;"></div>
   {% endif %}
-
-  </header>
