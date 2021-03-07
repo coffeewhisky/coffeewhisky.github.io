@@ -20,7 +20,6 @@ a:hover {
 header {
 	margin: 0 20px 30px 20px;
 	text-align: right;
-	font-size: .8em;
 }
 
 header li {
@@ -29,9 +28,8 @@ header li {
 	padding-left: 10px;
 }
 
-img.cover {
-	max-width: 100%;
-	margin:auto;
+.cover {
+	height:300px;
 }
 
 article {
