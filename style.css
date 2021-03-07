@@ -30,21 +30,28 @@ header li {
 }
 
 img.cover {
-	max-width: 700px;
+	max-width: 100%;
 	padding: 30px 25px 30px 25px;
 	margin:auto;
 }
 
 article {
-	max-width: 700px;
+	max-width: 900px;
 	padding: 30px 25px 30px 25px;
 	margin:auto;
 	border-bottom: 1px solid #eee;
 }
 
 article p {
-	max-width: 33em;
+
 }
+
+.about-image img {
+	max-width: 224px;
+	display: block;
+	margin: auto;
+}
+
 
 time {
 	font-size: .8em;
@@ -66,10 +73,4 @@ footer li {
 	display: inline;
 	list-style-type: none;
 	padding-right: 10px;
-}
-
-.about-image img {
-	max-width: 224px;
-	display: block;
-	margin: auto;
 }
