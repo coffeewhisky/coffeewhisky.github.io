@@ -1,3 +1,8 @@
+---
+layout: page
+title: About Me
+---
+
 # Hello, fellow readers!
 
 I’m a bookish sprite indeed, with eclectic taste in literature and devouring book after book. I hope at worst to entertain you with reviews of books past and current; at best help you decide which book simply *has* to jump the queue to the top of your TBR pile.
