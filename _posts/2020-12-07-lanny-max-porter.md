@@ -1,5 +1,3 @@
-# Lanny by Max Porter
-
 > Dead Papa Toothwort lies underneath a nineteenth-century vicar’s wife and fiddles with the roots of a yew in her pelvis. He loves the graveyard. He listens…
 
 With a daring structure of voices and a range of characters from a small village just outside London, Porter brings to life the relationship between the inhabitants, the landscape, and an ancient pagan spirit newly reawakened.
