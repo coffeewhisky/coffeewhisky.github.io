@@ -4,6 +4,7 @@ body {
 	line-height: 1.7em;
 	color: #333;
 	text-rendering: optimizeLegibility;
+	margin: 0px;
 }
 
 a, a:visited {
@@ -18,7 +19,7 @@ a:hover {
 }
 
 header {
-	margin: 0 20px 30px 20px;
+	margin: 30px 20px 30px 20px;
 	text-align: right;
 }
 
@@ -26,6 +27,11 @@ header li {
 	display: inline;
 	list-style-type: none;
 	padding-left: 10px;
+}
+
+header li.sitename {
+	float:left;
+	font-weight: 600;
 }
 
 .cover {
