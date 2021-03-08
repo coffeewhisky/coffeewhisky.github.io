@@ -12,7 +12,11 @@ title: Home
  {% for post in paginator.posts %} 
   
   <div class="card">
+     {% if page.cover %}
     <div class="card-header" style="background: url(/images/cover/{{ post.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
+    {% else %}
+    <div class="card-header" style="background: url(/images/cover/books.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
+  {% endif %}
     <div class="card-body"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a><br><time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time></div>  
     </div>
   
