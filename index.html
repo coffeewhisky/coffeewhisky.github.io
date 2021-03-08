@@ -3,6 +3,20 @@ layout: default
 title: Home
 ---
 
+# Latest Writings
+
+{% for post in paginator.posts %}
+
+<article>
+<h1><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a></h1>
+{{ post.content }}
+<time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time>
+</article>
+
+{% endfor %}
+
+# Latest Book Reviews
+
 {% for post in paginator.posts %}
 
 <article>
