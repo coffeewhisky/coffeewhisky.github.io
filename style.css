@@ -58,6 +58,10 @@ article img.me {
 	padding-left: 20px;
 }
 
+article .card-group {
+  display: flow-root;
+}
+
 article .card-group:after {
   content: "";
   display: table;
