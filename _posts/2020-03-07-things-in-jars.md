@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Things in Jars – Jess Kidd
-cover: leafs
 categories: review
 ---
 
