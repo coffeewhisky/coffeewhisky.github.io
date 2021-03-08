@@ -2,6 +2,7 @@
 layout: post
 title: Things in Jars – Jess Kidd
 categories: review
+cover: seaweed
 ---
 
 > All well and good creating a sewerage system that will be the envy of the civilised world, but should one really delve into London’s rancid belly? London is like a difficult surgical patient; however cautious the incision anything and everything is liable to burst out. Dig too deep and you’re bound to raise floods and bodies…
