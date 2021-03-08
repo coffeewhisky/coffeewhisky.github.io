@@ -19,8 +19,8 @@
     </ul>
   </header>
 
-    {% if page.cover %}
-    <div class="cover" style="background: url(/images/cover/{{ page.cover }}.jpg) 50% 50% / cover #0d0501;"></div>
+  {% if page.cover %}
+    <div class="cover" style="background: url(/images/cover/{{ page.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
   {% else %}
-    <div class="cover" style="background: url(/images/cover/books.jpg) 50% 50% / cover #0d0501;"></div>
+    <div class="cover" style="background: url(/images/cover/books.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
   {% endif %}
