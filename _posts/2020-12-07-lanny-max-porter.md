@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Lanny – Max Porter
+cover: leafs
 categories: review
 ---
 
