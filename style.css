@@ -83,6 +83,7 @@ article .card-header {
 article .card-body {
 	border: 1px solid #eee;
 	padding: 10px;
+	border-top: none;
 }
 
 
