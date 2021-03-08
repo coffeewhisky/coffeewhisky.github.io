@@ -10,7 +10,7 @@ title: Home
  {% for post in paginator.posts %} 
   
   <div class="card">
-     {% if page.cover %}
+     {% if post.cover %}
     <div class="card-header" style="background: url(/images/cover/{{ post.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
     {% else %}
     <div class="card-header" style="background: url(/images/cover/books.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
