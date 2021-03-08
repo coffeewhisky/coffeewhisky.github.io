@@ -7,11 +7,11 @@ title: Home
 
 {% for post in paginator.posts %}
 
-<article>
-<h1><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a></h1>
-  <div class="box-image" style="background: url(/images/cover/{{ post.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);">
-{{ post.content }}
-<time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time>
+<article class="card-group">
+  <div class="card">
+    <div class="card-header" style="background: url(/images/cover/{{ post.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
+    <div class="card-body"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a><br><time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time></div>  
+    </div>
 </article>
 
 {% endfor %}
@@ -20,10 +20,11 @@ title: Home
 
 {% for post in paginator.posts %}
 
-<article>
-<h1><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a></h1>
-{{ post.content }}
-<time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time>
+<article class="card-group">
+  <div class="card">
+    <div class="card-header" style="background: url(/images/cover/{{ post.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);"></div>
+    <div class="card-body"><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a><br><time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time></div>  
+    </div>
 </article>
 
 {% endfor %}
