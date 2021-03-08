@@ -58,11 +58,11 @@ article img.me {
 	padding-left: 20px;
 }
 
-article .card-group {
+.card-group {
   display: flow-root;
 }
 
-article .card-group:after {
+.card-group:after {
   content: "";
   display: table;
   clear: both;
