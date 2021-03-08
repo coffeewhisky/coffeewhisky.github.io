@@ -19,4 +19,4 @@ To give you an idea, some of the books that have made a lasting impression on me
 - Jo Confesso – Jaume Cabré
 - The Humans – Matt Haig
 - The Hunger Games – Suzanne Collins
-- and anything by Neil Gaiman or Terry Pratchett!
+- anything by Neil Gaiman or Terry Pratchett
