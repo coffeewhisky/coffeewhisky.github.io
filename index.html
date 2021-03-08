@@ -3,19 +3,20 @@ layout: default
 title: Home
 ---
 
-# Latest Writings
+<h1>Latest Writings</h1>
 
 {% for post in paginator.posts %}
 
 <article>
 <h1><a href="{{ post.url }}" rel="bookmark" title="Permanent Link to {{ post.title }}">{{post.title}}</a></h1>
+  <div class="box-image" style="background: url(/images/cover/{{ post.cover }}.jpg) 50% 50% / cover rgba(255, 255, 255, 0);">
 {{ post.content }}
 <time datetime="{{ post.date | date: "%Y-%m-%d" }}">→ {{ post.date | date: "%b %d, %Y" }}</time>
 </article>
 
 {% endfor %}
 
-# Latest Book Reviews
+  <h1>Latest Book Reviews</h1>
 
 {% for post in paginator.posts %}
 
